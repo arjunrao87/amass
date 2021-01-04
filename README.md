@@ -17,4 +17,21 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Steps to flow through the application 
+- Create form using typeform
+- Create firebase table with the same schema as typeform 
+- Provide access token for 
+    - typeform
+    - firebase
+- Provide id for 
+    - typeform form
+    - firebase table
+- Start up application 
+
+## Things to validate 
+- Is there a way to write from Typeform to Firebase?
+    - Google Forms -> Google sheets is free
+- Is Airtable better/easier than Firebase even if you have to pay?
+- What other services to add to this to make it usable? 
+    - Algolia? 
+    - Supertokens?
